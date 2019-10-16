@@ -158,11 +158,11 @@ cask 'opera'
 cask 'iterm2'
 
 # Tmux is a newer terminal multiplexer.
-brew 'pkg-config', link: true
-brew 'tmux'
+# brew 'pkg-config', link: true
+# brew 'tmux'
 
 # tmate is a fork of tmux that makes screen sharing friendlier.
-brew 'tmate'
+# brew 'tmate'
 
 # Screen is an older terminal multiplexer.
 brew 'screen'
@@ -177,19 +177,19 @@ cask 'ngrok'
 ##
 
 # Bash is the Bourne Again SHell. Bash is an sh-compatible shell.
-brew 'bash'
+# brew 'bash'
 
 # Programmable completion functions for bash
-brew 'bash-completion'
+# brew 'bash-completion'
 
 # Bashish is a theme enviroment for text terminals.
-brew 'bashish'
+# brew 'bashish'
 
 # Zsh is a shell designed for interactive use.
-brew 'zsh'
+# brew 'zsh'
 
 # Fish shell.
-brew 'fish'
+# brew 'fish'
 
 # Mobile Shell (MOSH) is like SSH plus roaming and smart echo.
 brew 'mobile-shell'
@@ -238,6 +238,9 @@ brew 'most'
 # Vim editor
 brew 'vim'
 
+# NeoVim editor - like Vim but with better plugins
+brew 'neovim'
+
 # MacVIM editor
 cask 'macvim'
 
@@ -249,6 +252,9 @@ cask 'atom'
 
 # Sublime text editor
 cask 'sublime-text'
+
+# Sublime git client
+cask 'sublime-merge'
 
 # GNU Aspell is a free open source spell checker; compare `lspell`.
 brew 'aspell', args: ['with-lang=en']
@@ -295,7 +301,7 @@ brew 'wget'
 ##
 
 # CVS is a version control system.
-brew 'cvs'
+# brew 'cvs'
 
 # Git is a free and open source distributed version control system.
 brew 'git'
@@ -476,7 +482,7 @@ brew 'p7zip'
 brew 'gzip'
 
 # RPM to CPIO converts a Red Hat RPM package file to a cpio archive
-brew 'rpm2cpio'
+# brew 'rpm2cpio'
 
 
 ## Encryption & decryption
@@ -510,7 +516,7 @@ cask 'dropbox'
 cask 'transmission'
 
 # Box.com sync
-cask 'box-sync'
+# cask 'box-sync'
 
 ##
 # Text search
@@ -546,10 +552,10 @@ cask 'tad'
 ##
 
 # Qt cross-platform software development
-brew 'qt5'
+# brew 'qt5'
 
 # WINE runs Windows applications on other operating systems.
-brew 'wine'
+# brew 'wine'
 
 # Xquartz X.Org X Window System that runs on OS X; needed for some image software.
 cask 'xquartz'
@@ -590,10 +596,10 @@ cask 'gimp'
 cask 'inkscape'
 
 # Blender 3D modeller
-cask 'blender'
+# cask 'blender'
 
 # Shotcut movie editor
-cask 'shotcut'
+# cask 'shotcut'
 
 # Freemind mind map editor
 cask 'freemind'
@@ -613,7 +619,7 @@ cask 'calibre'
 cask 'kindle'
 
 # Adobe Air player for multimedia content
-cask 'adobe-air'
+# cask 'adobe-air'
 
 ## Misc
 
@@ -771,37 +777,37 @@ cask 'amazon-music'
 cask 'android-file-transfer'
 
 # TDB
-cask 'anki'
+# cask 'anki'
 
 # AppCleaner thoroughly uninstalls unwanted apps.
 cask 'appcleaner'
 
 # TDB
-cask 'arq'
+# cask 'arq'
 
 # TDB
-cask 'atext'
+# cask 'atext'
 
 # TDB
-cask 'backblaze-downloader'
+# cask 'backblaze-downloader'
 
 # TDB
-cask 'backuploupe'
+# cask 'backuploupe'
 
 # TDB
-cask 'balsamiq-mockups'
+# cask 'balsamiq-mockups'
 
 # TDB
-cask 'bartender'
+# cask 'bartender'
 
 # TDB
-cask 'basecamp'
+# cask 'basecamp'
 
 # TDB
-cask 'beacon-scanner'
+# cask 'beacon-scanner'
 
 # TDB
-cask 'brain-workshop'
+# cask 'brain-workshop'
 
 # TDB
 cask 'caffeine'
@@ -823,9 +829,6 @@ cask 'codekit'
 
 # TDB
 cask 'commandq'
-
-# TDB
-cask 'duet'
 
 # TDB
 cask 'evernote'
@@ -949,24 +952,24 @@ cask 'unison'
 cask 'karabiner-elements'
 
 # OSX FUSE file system
-cask 'osxfuse'
+# cask 'osxfuse'
 
 # Flux dims the screen colors for better nighttime visibility.
-cask 'flux'
+# cask 'flux'
 
 ## Misc
 
-cask 'flip4mac'
-cask 'google-hangouts'
-cask 'inky'
-cask 'obs'
+# cask 'flip4mac'
+# cask 'google-hangouts'
+# cask 'inky'
+# cask 'obs'
 
 # Prey is a service tracks laptops and phones; it needs a password
 #cask 'prey'
 
-cask 'teamviewer'
-cask 'unity-web-player'
-cask 'zoomus'
+# cask 'teamviewer'
+# cask 'unity-web-player'
+# cask 'zoomus'
 
 ##
 # Mac App Store
@@ -1037,7 +1040,7 @@ cask 'zoomus'
 #brew 'codeclimate'
 
 # Command-line programs for manipulating fonts
-brew 'lcdf-typetools'
+# brew 'lcdf-typetools'
 
 ##
 # Shell
@@ -1198,15 +1201,15 @@ brew 'cassandra'
 brew 'couchdb'
 
 # Hadoop database.
-#brew 'hadoop' # Disbled because it interferes with 'yarn'
+# brew 'hadoop' # Disbled because it interferes with 'yarn'
 
 # MariaDB database
 #brew 'mariadb'  # Disabled because it interferes with 'mysql' and 'percona'
 
-# MySQL dadtabase.
+# MySQL database.
 brew 'mysql'
 
-# Memcached data cachce server..
+# Memcached data cache server..
 brew 'libmemcached'
 brew 'memcached'
 
@@ -1344,19 +1347,19 @@ brew 'cabal-install'
 cask 'java'
 
 # Gradle is a Java build tool
-brew 'gradle'
+# brew 'gradle'
 
 # Maven is a Java build tool
-brew 'maven'
+# brew 'maven'
 
 # Jetty provides a Java web server and javax.servlet container
-brew 'jetty'
+# brew 'jetty'
 
 # Apache Tomcat implements Java Servlet and JavaServer Pages technologies.
-brew 'tomcat'
+# brew 'tomcat'
 
 # Glassfish application server.
-brew 'glassfish'
+# brew 'glassfish'
 
 ## JavaScript
 
@@ -1412,7 +1415,7 @@ brew 'r'
 brew 'chruby'
 
 # JRuby is a high performance, stable, fully threaded Java implementation of Ruby.
-brew 'jruby'
+# brew 'jruby'
 
 # Ruby programming language; compare `perl`, `python`.
 brew 'ruby'
@@ -1564,37 +1567,37 @@ cask 'kube-solo'
 # you don't want to use or purchase, because this will save disk space.
 ##
 
-##
-# JetBrains
-#
-# JetBrains is paid software suitable for professional programmers,
-# such as Integrated Development Environments (IDEs) for popular
-# programming languages, including Java, Python, Ruby, PHP, etc.
-##
+# ##
+# # JetBrains
+# #
+# # JetBrains is paid software suitable for professional programmers,
+# # such as Integrated Development Environments (IDEs) for popular
+# # programming languages, including Java, Python, Ruby, PHP, etc.
+# ##
 
-# AppCode Swift IDE
-cask 'appcode'
+# # AppCode Swift IDE
+# cask 'appcode'
 
-# CLion C/C++ IDE
-cask 'clion'
+# # CLion C/C++ IDE
+# cask 'clion'
 
-# DataGrip SQL IDE
-cask 'datagrip'
+# # DataGrip SQL IDE
+# cask 'datagrip'
 
-# IntelliJ Java IDE
-cask 'intellij-idea'
+# # IntelliJ Java IDE
+# cask 'intellij-idea'
 
-# PhpStorm PHP IDE
-cask 'phpstorm'
+# # PhpStorm PHP IDE
+# cask 'phpstorm'
 
-# PyCharm Python IDE
-cask 'pycharm'
+# # PyCharm Python IDE
+# cask 'pycharm'
 
-# RubyMine Ruby IDE
-cask 'rubymine'
+# # RubyMine Ruby IDE
+# cask 'rubymine'
 
-# WebStorm IDE
-cask 'webstorm'
+# # WebStorm IDE
+# cask 'webstorm'
 
 ##
 # OmniGroup
@@ -1602,22 +1605,22 @@ cask 'webstorm'
 # OmniGroup provides paid software suitable for professional users.
 ##
 
-# To do list task manager
-cask 'omnifocus'
+# # To do list task manager
+# cask 'omnifocus'
 
-# Diagramming
-cask 'omnigraffle'
+# # Diagramming
+# cask 'omnigraffle'
 
-# Project management planning
-cask 'omniplan'
+# # Project management planning
+# cask 'omniplan'
 
-# Outliner
-cask 'omnioutliner'
+# # Outliner
+# cask 'omnioutliner'
 
-## Paw.cloud
+# ## Paw.cloud
 
-# Paw HTTP API testing tool
-cask 'paw'
+# # Paw HTTP API testing tool
+# cask 'paw'
 
 ###########################################################################
 #
