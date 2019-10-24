@@ -165,7 +165,7 @@ cask 'iterm2'
 # brew 'tmate'
 
 # Screen is an older terminal multiplexer.
-brew 'screen'
+# brew 'screen'
 
 # ngrok opens a secure tunnel to localhost
 cask 'ngrok'
@@ -202,19 +202,19 @@ brew 'mobile-shell'
 ##
 
 # Pass, a Unix password manager for the command line
-brew 'pass'
+# brew 'pass'
 
 # Keybase.io digital signature manager
-cask 'keybase'
+# cask 'keybase'
 
 # Authy password manager, which is cross-platform
-cask 'authy'
+# cask 'authy'
 
 # Bitwarden password manager, which is open-source
-cask 'bitwarden'
+# cask 'bitwarden'
 
 # 1password is a password manager
-cask '1password'
+# cask '1password'
 
 # LastPass is a password manager
 cask 'lastpass'
@@ -245,7 +245,7 @@ brew 'neovim'
 cask 'macvim'
 
 # Emacs editor with extra features; recommended by Spacemacs and Doom emacs
-brew 'emacs-plus'
+# brew 'emacs-plus'
 
 # Atom editor by GitHub
 cask 'atom'
@@ -282,7 +282,7 @@ cask "microsoft-office"
 ##
 
 # Carthage is a simple, decentralized dependency manager for Cocoa.
-brew 'carthage'
+# brew 'carthage'
 
 # curl is a command line tool for transferring data with URL syntax.
 brew 'curl', link: true
@@ -334,10 +334,10 @@ brew 'git-url-sub'
 cask 'gitup'
 
 # SourceTree graphic client for git
-cask 'sourcetree'
+# cask 'sourcetree'
 
 # Mercurial version control system.
-brew 'hg'
+# brew 'hg'
 
 # Subversion version control system.
 brew 'sqlite'; brew 'subversion'
@@ -531,10 +531,10 @@ brew 'ripgrep'
 brew 'grep'
 
 # ag is "the silver searcher" search tool; retired by ripgrep.
-brew 'ag'
+# brew 'ag'
 
 # sift is like grep, plus faster and with more features; retired by ripgrep.
-brew 'sift'
+# brew 'sift'
 
 # jq is a lightweight and flexible command-line JSON processor.
 brew 'jq'
@@ -558,7 +558,7 @@ cask 'tad'
 # brew 'wine'
 
 # Xquartz X.Org X Window System that runs on OS X; needed for some image software.
-cask 'xquartz'
+# cask 'xquartz'
 
 ##
 # Multimedia
@@ -584,16 +584,16 @@ cask 'vlc'
 #cask 'airfoil'
 
 # eqMac2: System-wide Audio Equalizer for the Mac; free open source
-cask 'eqmac'
+# cask 'eqmac'
 
 
 ## Multimedia editors
 
 # Gimp pixel-based image editor, similar to Adobe Photoshop
-cask 'gimp'
+# cask 'gimp'
 
 # Inkscape vector-based image editor, similar to Adobe Illustrator
-cask 'inkscape'
+# cask 'inkscape'
 
 # Blender 3D modeller
 # cask 'blender'
@@ -602,7 +602,7 @@ cask 'inkscape'
 # cask 'shotcut'
 
 # Freemind mind map editor
-cask 'freemind'
+# cask 'freemind'
 
 # yEd is desktop application to generate high-quality diagrams
 cask 'yed'
@@ -764,17 +764,7 @@ brew 'zlib'
 # Adium is an open source multi-protocol instant messaging client.
 cask 'adium'
 
-# TDB
-cask 'adventure'
 
-# TDB
-cask 'alfred'
-
-# TDB
-cask 'amazon-music'
-
-# TDB
-cask 'android-file-transfer'
 
 # TDB
 # cask 'anki'
@@ -810,7 +800,7 @@ cask 'appcleaner'
 # cask 'brain-workshop'
 
 # TDB
-cask 'caffeine'
+# cask 'caffeine'
 
 # TDB
 cask 'calibre'
@@ -828,85 +818,85 @@ cask 'coconutbattery'
 cask 'codekit'
 
 # TDB
-cask 'commandq'
+# cask 'commandq'
 
 # TDB
-cask 'evernote'
+# cask 'evernote'
 
 # TDB
-cask 'flash-player'
+# cask 'flash-player'
 
 # TDB
-cask 'fluid'
+# cask 'fluid'
 
 # TDB
-cask 'freeplane'
+# cask 'freeplane'
 
 # TDB
-cask 'ganttproject'
+# cask 'ganttproject'
 
 # TDB
-cask 'gfxcardstatus'
+# cask 'gfxcardstatus'
 
 # GitHub source code social sharing
-cask 'github'
+# cask 'github'
 
 # TDB
-cask 'gitx'
+# cask 'gitx'
 
 # TDB
-cask 'harvest'
+# cask 'harvest'
 
 # TDB
-cask 'hockey'
+# cask 'hockey'
 
 # TDB
-cask 'hipchat'
+# cask 'hipchat'
+# 
+# TDB
+# cask 'joinme'
 
 # TDB
-cask 'joinme'
+# cask 'jumpcut'
 
 # TDB
-cask 'jumpcut'
+# cask 'krita'
 
 # TDB
-cask 'krita'
-
-# TDB
-cask 'launchy'
+# cask 'launchy'
 
 # TDB
 cask 'little-snitch'
 
 # TODO
-cask 'mysqlworkbench'
+# cask 'mysqlworkbench'
 
 # TODO
-cask 'paparazzi'
+# cask 'paparazzi'
 
 # TODO
-cask 'pupil'
+# cask 'pupil'
 
 # TODO
 cask 'quicksilver'
 
 # TODO
-cask 'rescuetime'
+# cask 'rescuetime'
 
 # Screenhero screen sharing by Slack.
-cask 'screenhero'
+# cask 'screenhero'
 
 # TODO
-cask 'sequential'
+# cask 'sequential'
 
 # TODO
-cask 'shortcat'
+# cask 'shortcat'
 
 # Silverlight video player by Microsoft.
-cask 'silverlight'
+# cask 'silverlight'
 
 # TODO
-cask 'skitch'
+# cask 'skitch'
 
 # Skype calling with video and phone calls.
 cask 'skype'
@@ -915,10 +905,10 @@ cask 'skype'
 cask 'discord'
 
 # Slack chat client
-cask 'slack'
+# cask 'slack'e
 
 # TODO
-cask 'sleep-monitor'
+# cask 'sleep-monitor'
 
 # Spotify music player
 cask 'spotify'
@@ -927,16 +917,16 @@ cask 'spotify'
 cask 'superduper'
 
 # Synergy screen sharing utility
-cask 'synergy'
+# cask 'synergy'
 
 # TODO
-cask 'thisservice'
+# cask 'thisservice'
 
 # TODO
-cask 'transmit'
+# cask 'transmit'
 
 # TODO
-cask 'todos'
+# cask 'todos'
 
 # Unison file synchronizer.
 cask 'unison'
@@ -990,21 +980,11 @@ cask 'karabiner-elements'
 
 # Our favorites
 #mas "Apple Configurator 2", id: 1037126344
-#mas "Blackmagic Disk Speed Test", id: 425264550
-#mas "Brightness Slider", id: 456624497
-#mas "Color Picker", id: 641027709
-#mas "Deliveries", id: 924726344
-#mas "Expressions", id: 913158085
-#mas "InspectPNG", id: 498851708
-#mas "PCalc", id: 403504866
-#mas "Pixelmator", id: 407963104
-#mas "Telegram", id: 747648890
-#mas "Textual", id: 896450579
-#mas "Trello", id: 1278508951
+
 #mas "Tweetbot", id: 557168941
 #mas 'Simplenote', id: 692867256
 #mas 'Sip', id: 507257563
-#mas 'Slack', id: 803453959
+# mas 'Slack', id: 803453959
 #mas 'Todoist', id: 585829637
 
 ##
@@ -1047,7 +1027,7 @@ cask 'karabiner-elements'
 ##
 
 # GUI for rsync
-brew 'grsync'
+# brew 'grsync'
 
 # Pandoc document convert
 brew 'pandoc', link: true
@@ -1069,16 +1049,16 @@ brew 'inetutils'
 cask 'shuttle'
 
 # Thunderbird email client by Mozilla.
-cask 'thunderbird'
+# cask 'thunderbird'
 
 # Fugu: a graphical shell for SSH and FTP.
-cask 'fugu'
+# cask 'fugu'
 
 # Charles: enables a developer to view HTTP traffic.
 cask 'charles'
 
 # Postman: a complete API Development Environment.
-cask 'postman'
+# cask 'postman'
 
 # Insomnia: REST client for API testing.
 cask 'insomnia'
@@ -1283,7 +1263,7 @@ brew 'liquibase'
 cask 'realm-browser'
 
 # Sequel Pro database management application.
-cask 'sequel-pro'
+# cask 'sequel-pro'
 
 # Realm browser for the Realm embedded database
 cask 'realm-browser'
@@ -1315,20 +1295,20 @@ brew 'kibana'
 ## Clojure
 
 # Clojure programming language compiler.
-brew 'clojure'
+# brew 'clojure'
 
 # Leiningen automates Clojure projects.
-brew 'leiningen'
+# brew 'leiningen'
 
 ## Elixir
 
 # Elixir programming language built on top of the Erlang VM.
-brew 'elixir'
+# brew 'elixir'
 
 ## Erlang
 
 # Erlang programming language for scalable high-availability systems.
-brew 'erlang'
+# brew 'erlang'
 
 ## Go
 
@@ -1347,10 +1327,10 @@ brew 'cabal-install'
 cask 'java'
 
 # Gradle is a Java build tool
-# brew 'gradle'
+brew 'gradle'
 
 # Maven is a Java build tool
-# brew 'maven'
+brew 'maven'
 
 # Jetty provides a Java web server and javax.servlet container
 # brew 'jetty'
@@ -1379,49 +1359,49 @@ brew 'jid'
 ## Lua
 
 # Lua scripting language
-brew 'lua'
+# brew 'lua'
 
 # Lua just-in-time compiler
-brew 'luajit'
+# brew 'luajit'
 
 ## Perl
 
 # Perl programming language, esp. for systems administration.
-brew 'perl'
+# brew 'perl'
 
 # Perl-Compatible Regular Expressions pattern matching tools.
-brew 'pcre'
+# brew 'pcre'
 
 # CPAN search for perl modules
-brew 'cpansearch'
+# brew 'cpansearch'
 
 ## Python
 
 # Python programming language, esp. for systems scripting.
-brew 'python'
-brew 'python3'
+# brew 'python'
+# brew 'python3'
 
 # Python on the JVM
-brew 'jython'
+# brew 'jython'
 
 ## R
 
 # R programming language, esp. for statistics. TODO: which R do we want?
-brew 'r'
+# brew 'r'
 
 ## Ruby
 
 # chruby changes the current Ruby.
-brew 'chruby'
+# brew 'chruby'
 
 # JRuby is a high performance, stable, fully threaded Java implementation of Ruby.
 # brew 'jruby'
 
 # Ruby programming language; compare `perl`, `python`.
-brew 'ruby'
+# brew 'ruby'
 
 # Tool to install various implementations of Ruby.
-brew 'ruby-install'
+# brew 'ruby-install'
 
 ## Rust
 
@@ -1436,25 +1416,25 @@ brew 'scala'
 ## iOS, Objective-C, Swift
 
 # Alcatraz Xcode plugin manager
-cask 'alcatraz'
+# cask 'alcatraz'
 
 # Appium test automation framework
-cask 'appium'
+# cask 'appium'
 
 # Carthage Xcode project dependency manager.
-brew 'carthage'
+# brew 'carthage'
 
 # Command-line application launcher for the iOS Simulator
-brew 'ios-sim'
+# brew 'ios-sim'
 
 # Tool to help with Swift style and conventions.
-brew 'swiftlint'
+# brew 'swiftlint'
 
 # SourceKitten attaches to SourceKit AST.
-brew 'sourcekitten'
+# brew 'sourcekitten'
 
 ## Tcl/Tk cross-platform toolkit
-brew 'tcl-tk'
+# brew 'tcl-tk'
 
 ##
 # Programming processes
@@ -1484,11 +1464,11 @@ brew 'doxygen'
 ## Serializers
 
 # Protocol buffers for serializing structured data; compare thrift.
-brew 'protobuf'
-brew 'protobuf-c'
+# brew 'protobuf'
+# brew 'protobuf-c'
 
 # Thrift network serialization protocol; compare protobuf.
-brew 'thrift'
+# brew 'thrift'
 
 ## Testing
 
@@ -4131,3 +4111,118 @@ cask 'font-zeyada'
 # brew 'zssh'
 # brew 'zsync'
 # brew 'zzuf'
+
+
+tap "browsh-org/browsh"
+tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-eid"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "tzvetkoff/extras"
+cask "java8"
+brew "ascii"
+brew "python"
+brew "cmake"
+brew "exercism"
+brew "ffmpeg"
+brew "gdb"
+brew "git"
+brew "go"
+brew "htop"
+brew "imagemagick"
+brew "mas"
+brew "mpv"
+brew "mps-youtube"
+brew "neofetch"
+brew "nmap"
+brew "node"
+brew "pandoc"
+brew "pass"
+brew "pass-otp"
+brew "pipes-sh"
+brew "pv"
+brew "ranger"
+brew "telnet"
+brew "testdisk"
+brew "thefuck"
+brew "tidy-html5"
+brew "urlview"
+brew "vim"
+brew "wget"
+brew "zsh"
+brew "heroku/brew/heroku"
+cask "ampps"
+cask "appcleaner"
+cask "balenaetcher"
+cask "basictex"
+cask "bettertouchtool"
+cask "calibre"
+cask "coconutbattery"
+cask "devrantron"
+cask "discord"
+cask "dropbox"
+cask "electrum"
+cask "gitkraken"
+cask "gnucash"
+cask "insomnia"
+cask "iterm2"
+cask "karabiner-elements"
+cask "latexit"
+cask "macdown"
+cask "malwarebytes"
+cask "rstudio"
+cask "hammerspoon"
+cask "skype"
+cask "soulseek"
+cask "spotify"
+cask "staruml"
+cask "steam"
+cask "the-unarchiver"
+cask "tor-browser"
+cask "transmission"
+cask "virtualbox"
+cask "vlc"
+cask "zeronet"
+brew "scala"
+brew "speedtest-cli"
+brew "parallel"
+brew "unrar"
+brew "imagemagisk"
+brew "nvim"
+brew "tmux"
+brew "ripgrep"
+#youtube-dl -f best 'youtube-link'
+brew "youtube-dl"
+cask "alfred3"
+cask "jetbrains-toolbox"
+
+
+
+mas "Pages", id: 409201541
+mas "SnippetsLab", id: 1006087419
+mas "iA Writer", id: 775737590
+mas "Studies", id: 1071676469
+mas "System Designer", id: 1102494854
+mas "SMART JSON Editor", id: 1268962404
+mas "ChatMate for Whatsapp", id: 1228059008
+mas "Slack", id: 803453959
+mas "Things 3", id: 904280696
+mas "Wipr", id: 1320666476
+mas "DaisyDisk", id: 411643860
+mas "Tyme2", id: 1063996724
+mas "MindNode 5", id: 1289197285
+mas "Trello", id: 1278508951
+mas "Amphetamine", id: 937984704
+mas "Notability", id: 736189492
+mas "Kindle", id: 405399194
+mas "LastPass Password Manager", id:  926036361 
+mas "PCalc", id: 403504866
+mas "Noizio — focus, relax, sleep", id: 928871589
+mas "Patterns", id: 429449079
+mas "Studies", id: 1071676469 
+mas "Blackmagic Disk Speed Test", id: 425264550
+mas "Telegram", id: 747648890
